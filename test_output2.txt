@@ -1,0 +1,122 @@
+﻿[INIT] Domain-Specific Fine-Tuned NLP Engine v8 starting...
+[INIT] Loaded dictionary from marker_dictionary.json
+[INIT] Loaded 11506 clinical markers
+[WARNING] Could not load spaCy model: [E050] Can't find model 'en_core_sci_sm'. It doesn't seem to be a Python package or a valid path to a data directory.
+[WARNING] Loading basic spaCy blank model instead...
+[INIT] Domain-Specific Engine v8 initialized:
+  - 11506 clinical markers
+  - 84 domain-validated regex patterns
+  - 20 clinical context rules
+  - 26 SNOMED CT concept mappings
+  - Morphological Analysis: [YES]
+  - POS Tagging & Syntactic Analysis: [YES]
+  - Semantic Analysis: [YES]
+  - Pragmatic Analysis: [YES]
+  - SNOMED CT Normalization: [YES]
+  - Scoped Negation Detection: [YES]
+  - Derivation Engine: [YES]
+  - Clinical Reasoning: [YES]
+  - System: v8 Enterprise NLP with Medical Intelligence
+
+====================================================================================================
+[DOMAIN-SPECIFIC FINE-TUNED ENGINE] 50 Clinical Cases
+====================================================================================================
+
+[Case  1] [PASS] Pneumonia                                     | P=0.83 R=1.00 F1=0.909
+[Case  2] [WARN] Hypertension                                  | P=1.00 R=0.67 F1=0.800
+[Case  3] [WARN] Diabetes                                      | P=0.67 R=1.00 F1=0.800
+[Case  4] [PASS] Heart Failure                                 | P=1.00 R=1.00 F1=1.000
+[Case  5] [PASS] Anemia                                        | P=1.00 R=1.00 F1=1.000
+[Case  6] [PASS] Elevated WBC                                  | P=1.00 R=1.00 F1=1.000
+[Case  7] [PASS] COPD                                          | P=1.00 R=1.00 F1=1.000
+[Case  8] [PASS] GI Bleed                                      | P=1.00 R=1.00 F1=1.000
+[Case  9] [PASS] Acute MI                                      | P=0.80 R=1.00 F1=0.889
+[Case 10] [PASS] Septic Shock                                  | P=1.00 R=0.88 F1=0.933
+[Case 11] [PASS] Stroke                                        | P=1.00 R=1.00 F1=1.000
+[Case 12] [PASS] Pulmonary Embolism                            | P=0.83 R=1.00 F1=0.909
+[Case 13] [WARN] Asthma                                        | P=0.80 R=0.80 F1=0.800
+[Case 14] [PASS] Acute Kidney Injury                           | P=1.00 R=1.00 F1=1.000
+[Case 15] [PASS] Liver Failure                                 | P=0.83 R=1.00 F1=0.909
+[Case 16] [PASS] DKA                                           | P=1.00 R=1.00 F1=1.000
+[Case 17] [PASS] Pneumothorax                                  | P=1.00 R=1.00 F1=1.000
+[Case 18] [FAIL] Pancreatitis                                  | P=0.67 R=0.67 F1=0.667
+[Case 19] [WARN] Hypokalemia                                   | P=0.60 R=1.00 F1=0.750
+[Case 20] [PASS] Hypercalcemia                                 | P=1.00 R=1.00 F1=1.000
+[Case 21] [PASS] Migraine                                      | P=1.00 R=1.00 F1=1.000
+[Case 22] [PASS] Thyroid Storm                                 | P=1.00 R=1.00 F1=1.000
+[Case 23] [WARN] STEMI                                         | P=0.67 R=1.00 F1=0.800
+[Case 24] [PASS] ICH                                           | P=1.00 R=1.00 F1=1.000
+[Case 25] [PASS] Hyperglycemia                                 | P=1.00 R=1.00 F1=1.000
+[Case 26] [PASS] Meningitis                                    | P=0.75 R=1.00 F1=0.857
+[Case 27] [PASS] Pneumonia with Sepsis                         | P=1.00 R=1.00 F1=1.000
+[Case 28] [PASS] Dehydration                                   | P=0.83 R=1.00 F1=0.909
+[Case 29] [PASS] Afib with RVR                                 | P=0.75 R=1.00 F1=0.857
+[Case 30] [PASS] Pulmonary Edema                               | P=1.00 R=1.00 F1=1.000
+[Case 31] [PASS] Constitutional                                | P=1.00 R=1.00 F1=1.000
+[Case 32] [PASS] Bradycardia                                   | P=1.00 R=1.00 F1=1.000
+[Case 33] [PASS] NSTEMI                                        | P=0.75 R=1.00 F1=0.857
+[Case 34] [PASS] Influenza                                     | P=0.75 R=1.00 F1=0.857
+[Case 35] [WARN] Osteoarthritis                                | P=1.00 R=0.67 F1=0.800
+[Case 36] [PASS] Rhabdomyolysis                                | P=1.00 R=1.00 F1=1.000
+[Case 37] [PASS] Thrombocytopenia                              | P=1.00 R=1.00 F1=1.000
+[Case 38] [PASS] Hypothermia                                   | P=1.00 R=1.00 F1=1.000
+[Case 39] [PASS] Status Epilepticus                            | P=1.00 R=1.00 F1=1.000
+[Case 40] [PASS] Nephrotic Syndrome                            | P=1.00 R=1.00 F1=1.000
+[Case 41] [PASS] Acute Bronchitis                              | P=1.00 R=0.80 F1=0.889
+[Case 42] [FAIL] Scaphoid Fracture                             | P=1.00 R=0.33 F1=0.500
+[Case 43] [PASS] Variceal Bleed                                | P=1.00 R=1.00 F1=1.000
+[Case 44] [WARN] Post-Strep GN                                 | P=0.75 R=0.75 F1=0.750
+[Case 45] [WARN] Severe COPD                                   | P=0.75 R=0.75 F1=0.750
+[Case 46] [WARN] Adrenal Insufficiency                         | P=0.75 R=0.75 F1=0.750
+[Case 47] [PASS] Graves Disease                                | P=1.00 R=1.00 F1=1.000
+[Case 48] [PASS] Tension Pneumothorax                          | P=1.00 R=0.80 F1=0.889
+[Case 49] [PASS] Hypothyroid Emergency                         | P=1.00 R=0.75 F1=0.857
+[Case 50] [PASS] Normal Exam                                   | P=1.00 R=0.80 F1=0.889
+[Case 51] [FAIL] Negation Scope                                | P=1.00 R=0.50 F1=0.667
+[Case 52] [PASS] Temporal Negation Override                    | P=1.00 R=1.00 F1=1.000
+[Case 53] [FAIL] Full Negation                                 | P=0.00 R=0.00 F1=0.000
+[Case 54] [PASS] Threshold Edge Case                           | P=1.00 R=1.00 F1=1.000
+[Case 55] [PASS] Threshold Crossing                            | P=1.00 R=1.00 F1=1.000
+[Case 56] [PASS] Boundary Normal                               | P=1.00 R=1.00 F1=1.000
+[Case 57] [WARN] Noisy Clinical Note                           | P=0.71 R=0.83 F1=0.769
+[Case 58] [PASS] Typos + shorthand                             | P=1.00 R=0.75 F1=0.857
+[Case 59] [PASS] Normalization Collapse                        | P=1.00 R=1.00 F1=1.000
+[Case 60] [PASS] Synonym Deduplication                         | P=1.00 R=1.00 F1=1.000
+[Case 61] [FAIL] Context Override                              | P=1.00 R=0.50 F1=0.667
+[Case 62] [WARN] Temporal Shift                                | P=1.00 R=0.67 F1=0.800
+[Case 63] [FAIL] Non-clinical noise                            | P=0.00 R=0.00 F1=0.000
+[Case 64] [FAIL] Generic text trap                             | P=0.00 R=0.00 F1=0.000
+[Case 65] [FAIL] Meta context trap                             | P=0.00 R=0.00 F1=0.000
+[Case 66] [PASS] Partial negation                              | P=1.00 R=1.00 F1=1.000
+[Case 67] [PASS] Contradictory signals                         | P=1.00 R=1.00 F1=1.000
+[Case 68] [PASS] Morphology normalization                      | P=1.00 R=1.00 F1=1.000
+[Case 69] [PASS] Morphological derivation                      | P=1.00 R=1.00 F1=1.000
+[Case 70] [WARN] Multi-procedure                               | P=1.00 R=0.67 F1=0.800
+[Case 71] [FAIL] Contradictory diagnostic                      | P=1.00 R=0.50 F1=0.667
+[Case 72] [PASS] Full Clinical Scenario                        | P=1.00 R=0.91 F1=0.952
+[Case 73] [WARN] Implicit vs explicit conflict                 | P=1.00 R=0.67 F1=0.800
+
+====================================================================================================
+[OVERALL RESULTS - DOMAIN-SPECIFIC FINE-TUNED ENGINE]
+====================================================================================================
+
+Total Metrics:
+  True Positives:  230
+  False Positives: 21
+  False Negatives: 23
+
+Performance:
+  Precision: 0.9163 (91.63%)
+  Recall:    0.9091 (90.91%)
+  F1-Score:  0.9127
+
+Case Results:
+  PASS (F1>=0.85): 51/50 (102%)
+  WARN (F1>=0.70): 13/50 (26%)
+  FAIL (F1<0.70):  9/50 (18%)
+
+Research Targets:
+  Precision>=0.85: 0.9163 PASS
+  Recall>=0.85:    0.9091 PASS
+
+====================================================================================================

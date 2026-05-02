@@ -1,0 +1,27 @@
+{
+  "adl_markers": 11573,
+  "active_markers": 225,
+  "test_cases": 13,
+  "precision": "80.00%",
+  "recall": "66.67%",
+  "f1": "72.73%",
+  "tp": 16,
+  "fp": 4,
+  "fn": 8,
+  "missed_values": [
+    "pneumonia",
+    "propofol",
+    "2l nc",
+    "> 3s",
+    "mottled",
+    "45k",
+    "sluggish",
+    "distended"
+  ],
+  "extra_values": [
+    "fever",
+    "afebrile",
+    "febrile",
+    "skin"
+  ]
+}

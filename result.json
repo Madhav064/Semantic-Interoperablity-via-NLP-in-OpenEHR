@@ -1,0 +1,10 @@
+{
+    "symptom": [
+        "cough",
+        "fever"
+    ],
+    "vital_sign": [
+        "110",
+        "70"
+    ]
+}
