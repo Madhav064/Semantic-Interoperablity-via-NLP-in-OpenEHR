@@ -1,10 +1,24 @@
 {
     "symptom": [
-        "cough",
-        "fever"
+        "fever",
+        "cough"
     ],
     "vital_sign": [
-        "110",
-        "70"
+        "101.5",
+        "145",
+        "92"
+    ],
+    "procedure": [
+        "CXR"
+    ],
+    "diagnosis": [
+        "pneumonia"
+    ],
+    "lab_test": [
+        "WBC",
+        "13.5"
+    ],
+    "derived_diagnosis": [
+        "elevated_wbc"
     ]
 }
